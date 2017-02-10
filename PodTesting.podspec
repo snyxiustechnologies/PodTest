@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTesting"
-  s.version      = “1.0.0”
+  s.version      = “1.0.1”
   s.summary      = "A short description of PodTesting."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/snyxiustechnologies/PodTest.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/snyxiustechnologies/PodTest.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
